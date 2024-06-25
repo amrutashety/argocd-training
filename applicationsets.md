@@ -66,7 +66,7 @@ kubectl get secrets -n argocd
 
 #### Create an applicationset manifest
 
-In the `applicationsets` directory there is a file called `pull-request.yaml` with the following content:
+In the `applicationset` directory there is a file called `pull-request.yaml` with the following content:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
